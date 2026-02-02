@@ -280,6 +280,25 @@
 	clothing_flags = CANT_SLEEP_IN
 	sellprice = 100
 
+
+/obj/item/clothing/face/facemask/baothanmask
+	name = "voluptuary's sensation"
+	icon = 'icons/roguetown/clothing/special/heretical.dmi'
+	item_state = "baothanmask"
+	icon_state = "baothanarmormask"
+	desc = "I face the crowd, and then I bowed. Who would disallow such joy unbound. "
+	armor = list("blunt" = 100, "slash" = 100, "stab" = 100,  "piercing" = 80, "fire" = 0, "acid" = 0)
+	blocksound = PLATEHIT
+	break_sound = 'sound/foley/breaksound.ogg'
+	drop_sound = 'sound/foley/dropsound/armor_drop.ogg'
+	prevent_crits = list(BCLASS_LASHING, BCLASS_BITE, BCLASS_TWIST, BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_STAB)
+	max_integrity = 750
+	sewrepair = FALSE
+	anvilrepair = FALSE
+	smeltresult = null
+	melting_material = null
+	melt_amount = 0
+
 /obj/item/clothing/face/shepherd/clothmask
 	name = "cloth mask"
 	icon_state = "clothm"

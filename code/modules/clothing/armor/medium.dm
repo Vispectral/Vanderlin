@@ -23,6 +23,20 @@
 	max_integrity = INTEGRITY_STRONG
 	item_weight = 7
 
+/obj/item/clothing/armor/medium/scale/baothanarmor
+	name = "voluptuary's epic"
+	desc = "I must hone, this armor's tone. For I must not postpone, I am this show's backbone."
+	item = 'icons/roguetown/clothing/special/heretical.dmi'
+	item_state = "baothanarmor"
+	icon_state = "scale"
+	icon = 'icons/roguetown/clothing/armor.dmi'
+	sellprice = VALUE_STEEL_ARMOR_FINE
+	body_parts_covered = CCOVERAGE_TORSO
+	prevent_crits = ALL_CRITICAL_HITS
+	max_integrity = INTEGRITY_STRONG
+	item_weight = 7
+
+
 /obj/item/clothing/armor/medium/scale/steppe
 	name = "steel heavy lamellar"
 	desc = "A chestpiece composed of easily-replaced small rectangular plates of layered steel laced together in rows with wire. Malleable and protective, perfect for cavalrymen."

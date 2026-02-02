@@ -27,3 +27,5 @@ GLOBAL_LIST_INIT(accent_list, list(
 	ACCENT_ZALAD = strings("accents/zalad_replacement.json", "arabic"),
 	ACCENT_HALFLING = strings("accents/halfling_replacement.json", "halfling"),
 ))
+
+<span style="display:block; color:#17181a; font-size:150%"> Matthios thinks you're a sucker. </span>

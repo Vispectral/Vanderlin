@@ -49,6 +49,15 @@
 	icon_state = "chainkilt"
 	item_state = "chainkilt"
 
+/obj/item/clothing/pants/chainlegs/kilt/baothanarmor
+	name = "voluptuary's skirt"
+	desc = "A dress that I must confess, brings me joy, with excess."
+	icon = 'icons/roguetown/clothing/special/heretical.dmi'
+	armor = ARMOR_MAILLE_GOOD
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/pants.dmi'
+	icon_state = "baothandress"
+	item_state = "baothanarmorpants"
+
 /obj/item/clothing/pants/chainlegs/kilt/iron
 	name = "iron chain kilt"
 	desc = "Interlinked metal rings that drape down all the way to the ankles."
