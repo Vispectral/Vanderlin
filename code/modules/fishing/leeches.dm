@@ -55,7 +55,7 @@
 		if(0.8 to INFINITY)
 			. += "<span class='bloody'><B>[p_theyre(TRUE)] fat and engorged with blood.</B></span>"
 		if(0.5 to 0.8)
-			. += "<span class='bloody'>[p_theyre(TRUE)] well fed.</span>"
+			. += "<span class='bloody'>[p_theyre(TRUE)] well-fed.</span>"
 		if(0.1 to 0.5)
 			. += "<span class='warning'>[p_they(TRUE)] want[p_s()] a meal.</span>"
 		if(-INFINITY to 0.1)
@@ -67,7 +67,7 @@
 	if(drainage)
 		START_PROCESSING(SSobj, src)
 
-/obj/item/natural/worms/leech/attack(mob/living/M, mob/user)
+/obj/item/natural/worms/leech/attack(mob/living/M, mob/user, list/modifiers)
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		var/obj/item/bodypart/affecting = H.get_bodypart(check_zone(user.zone_selected))
@@ -216,7 +216,7 @@
 	blood_storage = BLOOD_VOLUME_SURVIVE
 	blood_maximum = BLOOD_VOLUME_BAD
 
-/obj/item/natural/worms/leech/parasite/attack_self(mob/user, params)
+/obj/item/natural/worms/leech/parasite/attack_self(mob/user, list/modifiers)
 	. = ..()
 	giving = !giving
 	if(giving)

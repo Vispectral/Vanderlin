@@ -1,7 +1,7 @@
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/blowgun
 	name = "blowgun"
-	desc = "A primitive tool used for hunting. To use most accuratly, hold your breath for a moment before releasing."
+	desc = "A primitive tool used for hunting. To use most accurately, hold your breath for a moment before releasing."
 	icon = 'icons/roguetown/weapons/32/bows.dmi'
 	icon_state = "blowgun"
 	possible_item_intents = list(/datum/intent/shoot/blowgun, /datum/intent/arc/blowgun, INTENT_GENERIC)
@@ -28,7 +28,7 @@
 /obj/item/gun/ballistic/revolver/grenadelauncher/blowgun/shoot_with_empty_chamber()
 	return
 
-/obj/item/gun/ballistic/revolver/grenadelauncher/blowgun/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
+/obj/item/gun/ballistic/revolver/grenadelauncher/blowgun/process_fire(atom/target, mob/living/user, message = TRUE, list/modifiers, zone_override, bonus_spread = 0)
 	if(user.usable_hands < 1)
 		return FALSE
 	if(user.client)

@@ -14,15 +14,19 @@
 
 /obj/item/reagent_containers/food/snacks/produce/fruit
 	name = "fruit"
+	naturalist = TRUE
 
 /obj/item/reagent_containers/food/snacks/produce/vegetable
 	name = "vegetable"
+	naturalist = TRUE
 
 /obj/item/reagent_containers/food/snacks/produce/grain
 	name = "grain"
+	naturalist = TRUE
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom
 	name = "mushroom"
+	naturalist = TRUE
 
 /obj/item/reagent_containers/food/snacks/produce/Initialize(mapload)
 	. = ..()
@@ -39,7 +43,7 @@
 				visible_message("<span class='warning'>[H] crushes [src] underfoot.</span>")
 				qdel(src)
 
-/obj/item/reagent_containers/food/snacks/produce/attackby(obj/item/weapon, mob/user, params)
+/obj/item/reagent_containers/food/snacks/produce/attackby(obj/item/weapon, mob/user, list/modifiers)
 	if(weapon && isturf(loc))
 		var/turf/location = get_turf(src)
 		if(seed && (user.used_intent.blade_class == BCLASS_BLUNT) && (!user.used_intent.noaa))
@@ -409,7 +413,7 @@
 /obj/item/reagent_containers/food/snacks/produce/fruit/lime
 	name = "lime"
 	seed = /obj/item/neuFarm/seed/lime
-	desc = "Along with its other citrus cousins, limes are well loved by sailors and seafolk for their ability to keep and stave off scurvy."
+	desc = "Along with its other citrus cousins, limes are well-loved by sailors and seafolk for their ability to keep and stave off scurvy."
 	icon_state = "lime"
 	bitesize = 2
 	foodtype = FRUIT
