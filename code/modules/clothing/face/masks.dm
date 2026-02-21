@@ -286,7 +286,7 @@
 	icon = 'icons/roguetown/clothing/special/heretical.dmi'
 	item_state = "baothanmask"
 	icon_state = "baothanarmormask"
-	desc = "I face the crowd, and then I bowed. Who would disallow such joy unbound. "
+	desc = "A mask with a strange smile It has a ruby gem at the top. It is excess getting to your head. "
 	armor = list("blunt" = 100, "slash" = 100, "stab" = 100,  "piercing" = 80, "fire" = 0, "acid" = 0)
 	blocksound = PLATEHIT
 	break_sound = 'sound/foley/breaksound.ogg'
@@ -298,6 +298,26 @@
 	smeltresult = null
 	melting_material = null
 	melt_amount = 0
+
+
+/obj/item/clothing/face/facemask/graggarmask
+	name = "Face of Chaos"
+	icon = 'icons/roguetown/clothing/special/heretical.dmi'
+	item_state = "graggarmask"
+	icon_state = "graggarmask"
+	desc = "The rage of the Orc-Father taints this mask. You see red, violent bloody, red. "
+	armor = list("blunt" = 100, "slash" = 100, "stab" = 100,  "piercing" = 80, "fire" = 100, "acid" = 0)
+	blocksound = PLATEHIT
+	break_sound = 'sound/foley/breaksound.ogg'
+	drop_sound = 'sound/foley/dropsound/armor_drop.ogg'
+	prevent_crits = list(BCLASS_LASHING, BCLASS_BITE, BCLASS_TWIST, BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_STAB)
+	max_integrity = 750
+	sewrepair = FALSE
+	anvilrepair = FALSE
+	smeltresult = null
+	melting_material = null
+	melt_amount = 0
+
 
 /obj/item/clothing/face/shepherd/clothmask
 	name = "cloth mask"

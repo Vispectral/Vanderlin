@@ -181,6 +181,19 @@
 	block2add = FOV_BEHIND
 	sellprice = 0 // See above comment
 
+/obj/item/clothing/head/helmet/heavy/graggar
+	name = "vicious helmet"
+	desc = "A rugged and horrifying helmet. A violent aura emanates from it."
+	icon_state = "graggarplatehelm"
+	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
+	armor = ARMOR_PLATE
+	flags_cover = HEADCOVERSEYES
+	prevent_crits = ALL_CRITICAL_HITS
+	item_weight = 5 * STEEL_MULTIPLIER
+	block2add = FOV_BEHIND
+	sellprice = 0 // See above comment
+
 //............... Baothan Helmet ............... //
 
 /obj/item/clothing/head/helmet/heavy/baotha

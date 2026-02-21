@@ -25,7 +25,7 @@
 
 /obj/item/clothing/armor/medium/scale/baothanarmor
 	name = "voluptuary's epic"
-	desc = "I must hone, this armor's tone. For I must not postpone, I am this show's backbone."
+	desc = "A piece of shiny plate armor, decorated with ceremonial cloth. It oozes oppulence."
 	item = 'icons/roguetown/clothing/special/heretical.dmi'
 	item_state = "baothanarmor"
 	icon_state = "scale"

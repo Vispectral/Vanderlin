@@ -85,3 +85,15 @@
 
 	body_parts_covered = COVERAGE_ALL_BUT_ARMS
 	item_weight = 7 * STEEL_MULTIPLIER
+
+/obj/item/clothing/armor/rare/graggararmor
+	name = "body of chaos"
+	desc = "Armor fit for a warlord, mounted with the skulls of the fallen, awating more. It heeds to bloodshed and brute strength."
+	item_state = "graggararmor"
+	icon_state = "graggararmor"
+	sellprice = VALUE_STEEL_ARMOR_FINE
+	body_parts_covered = CCOVERAGE_TORSO
+	prevent_crits = ALL_CRITICAL_HITS
+	max_integrity = INTEGRITY_STRONG
+	item_weight = 7
+	allowed_sex = list(MALE)
