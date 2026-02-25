@@ -83,26 +83,6 @@
 		drink_from(user)
 	return TRUE
 
-//obj/structure/well/fountain/wine/proc/drink_from(mob/living/user)
-	//var/datum/reagents/reagents = new()
-	//reagents.add_reagent(/datum/reagent/consumable/ethanol/tiefling/delectable, 2)
-	//reagents.trans_to(user, reagents.total_volume, transfered_by = user, method = INGEST)
-	//playsound(user,pick('sound/items/drink_gen (1).ogg','sound/items/drink_gen (2).ogg','sound/items/drink_gen (3).ogg'), 100, TRUE)
-
-//obj/structure/well/attackby(obj/item/I, mob/user, list/modifiers)
-	//if(istype(I, /obj/item/reagent_containers/glass/bucket))
-		//var/obj/item/reagent_containers/glass/bucket/W = I
-		//if(W.reagents.holder_full())
-			//to_chat(user, "<span class='warning'>[W] is full.</span>")
-			//return
-		//if(do_after(user, 6 SECONDS, src))
-			//var/list/waterl = list(/datum/reagent/consumable/ethanol/tiefling/delectable = 100)
-			//W.reagents.add_reagent_list(waterl)
-			//to_chat(user, "<span class='notice'>I fill [W] from [src].</span>")
-			//playsound(user, pick('sound/foley/waterwash (1).ogg','sound/foley/waterwash (2).ogg'), 80, FALSE)
-			//return
-	//else ..()
-
 /obj/structure/well/MouseDrop_T(obj/O, mob/user)
 	. = ..()
 	// this is mostly a copy paste of the ladder code-ish
