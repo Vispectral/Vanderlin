@@ -87,6 +87,11 @@
 	cookonme = FALSE
 	crossfire = FALSE
 
+/obj/machinery/light/fueled/firebowl/standing/pink
+	bulb_colour = "#f780d9"
+	icon_state = "standingp1"
+	base_state = "standingp"
+
 
 /obj/machinery/light/fueled/firebowl/standing/blue
 	bulb_colour = "#8468ff"
@@ -199,6 +204,23 @@
 	SET_BASE_PIXEL(32, 0)
 
 /obj/machinery/light/fueled/wallfire/candle/skull/l
+	SET_BASE_PIXEL(-32, 0)
+
+/obj/machinery/light/fueled/wallfire/candle/pink
+	bulb_colour = "#f780d9"
+	icon_state = "wallcandlep1"
+	base_state = "wallcandlep"
+
+/obj/machinery/light/fueled/wallfire/candle/pink/extinguish()
+	return FALSE
+
+/obj/machinery/light/fueled/wallfire/candle/pink/burn_out()
+	return FALSE
+
+/obj/machinery/light/fueled/wallfire/candle/pink/r
+	SET_BASE_PIXEL(32, 0)
+
+/obj/machinery/light/fueled/wallfire/candle/pink/l
 	SET_BASE_PIXEL(-32, 0)
 
 /obj/machinery/light/fueled/wallfire/candle/weak

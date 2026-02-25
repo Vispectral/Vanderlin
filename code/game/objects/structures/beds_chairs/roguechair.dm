@@ -80,6 +80,14 @@
 	name = "small throne"
 	icon_state = "thronechair"
 
+/obj/structure/chair/bench/throne/regal1
+	name = "regal couch"
+	icon_state = "couch_regal1"
+
+/obj/structure/chair/bench/throne/regal2
+	name = "regal couch"
+	icon_state = "couch_regal2"
+
 // dirtier sofa
 /obj/structure/chair/bench/coucha/redleft
 	icon_state = "redcouch_alt"
@@ -153,7 +161,6 @@
 	icon_state = "chair_red"
 	origin_type = /obj/structure/chair/wood/alt/chair_noble/red
 
-
 /obj/structure/chair/wood/alt/CanAllowThrough(atom/movable/mover, turf/target)
 	. = ..()
 	if(isliving(mover))
@@ -208,6 +215,9 @@
 /obj/structure/chair/wood/alt/fancy
 	icon_state = "chair1"
 	item_chair = /obj/item/chair/fancy
+
+/obj/structure/chair/chair_noble/regal
+	icon_state = "chair_regal"
 
 /obj/item/chair/fancy
 	icon_state = "chair1"
@@ -266,6 +276,9 @@
 	. = ..()
 	if(target == goldilocks)
 		goldilocks = null
+
+/obj/structure/bed/inn/double/baotha
+	icon_state = "double_baotha"
 
 // ------------ DECENT BEDS ----------------------
 /obj/structure/bed/wool

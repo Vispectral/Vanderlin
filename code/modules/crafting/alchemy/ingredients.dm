@@ -158,6 +158,10 @@
 	name = "salvia"
 	icon_state = "salvia"
 
+/obj/item/alch/herb/rosa_corrupt
+	name = "sibls"
+	icon_state = "rosa_corrupt"
+
 /obj/item/alch/herb/rosa
 	name = "rosa"
 	icon_state = "rosa"

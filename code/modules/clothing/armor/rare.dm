@@ -92,7 +92,7 @@
 	item_state = "graggararmor"
 	icon_state = "graggararmor"
 	sellprice = VALUE_STEEL_ARMOR_FINE
-	body_parts_covered = CCOVERAGE_TORSO
+	body_parts_covered = COVERAGE_TORSO
 	prevent_crits = ALL_CRITICAL_HITS
 	max_integrity = INTEGRITY_STRONG
 	item_weight = 7

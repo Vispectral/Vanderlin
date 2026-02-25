@@ -203,3 +203,11 @@
 
 	bound_height = 128
 	bound_width = 128
+
+/obj/structure/flora/sakura/baotha
+	icon = 'icons/obj/structures/baothatree.dmi'
+	icon_state = "baothatree"
+	obj_flags = CAN_BE_HIT | IGNORE_SINK
+
+	bound_height = 128
+	bound_width = 128

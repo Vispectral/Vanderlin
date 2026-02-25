@@ -26,12 +26,11 @@
 /obj/item/clothing/armor/medium/scale/baothanarmor
 	name = "voluptuary's epic"
 	desc = "A piece of shiny plate armor, decorated with ceremonial cloth. It oozes oppulence."
-	item = 'icons/roguetown/clothing/special/heretical.dmi'
-	item_state = "baothanarmor"
-	icon_state = "scale"
 	icon = 'icons/roguetown/clothing/armor.dmi'
+	item_state = "baothanarmor"
+	icon_state = "baothanarmor"
 	sellprice = VALUE_STEEL_ARMOR_FINE
-	body_parts_covered = CCOVERAGE_TORSO
+	body_parts_covered = COVERAGE_TORSO
 	prevent_crits = ALL_CRITICAL_HITS
 	max_integrity = INTEGRITY_STRONG
 	item_weight = 7

@@ -29,5 +29,3 @@ GLOBAL_LIST_INIT(accent_list, list(
 	ACCENT_HALFLING = strings("accents/halfling_replacement.json", "halfling"),
 	ACCENT_KOBOLD = strings("accents/kobold_replacement.json", "kobold"),
 ))
-
-<span style="display:block; color:#17181a; font-size:150%"> Matthios thinks you're a sucker. </span>

@@ -174,6 +174,12 @@
 
 	herbtype = /obj/item/alch/herb/rosa
 
+/obj/structure/flora/grass/herb/rosa/corrupted
+	name = "sibls"
+	icon_state = "corruptedrosa2"
+
+	herbtype = /obj/item/alch/herb/rosa_corrupt
+
 /obj/structure/flora/grass/herb/euphorbia
 	name = "euphorbia"
 	icon_state = "euphorbia2"

@@ -738,6 +738,15 @@
 	icon = 'icons/roguetown/misc/structure.dmi'
 	icon_state = "pillar"
 
+/obj/structure/fluff/statue/marblepillar
+	icon_state = "marble_pillar"
+
+/obj/structure/fluff/statue/baotha_banner
+	icon_state = "baotha_flag"
+
+/obj/structure/fluff/statue/siblspot
+	icon_state = "siblspot"
+
 /obj/structure/fluff/statue/femalestatue
 	icon = 'icons/roguetown/misc/ay.dmi'
 	icon_state = "1"
@@ -768,7 +777,7 @@
 	desc = "The Dark Lady. Even in stone, you feel unsettled looking at it."
 	icon = 'icons/roguetown/misc/64x128.dmi'
 	icon_state = "zizo"
-	max_integrity = 100
+	max_integrity = 1000
 	deconstructible = FALSE
 	density = TRUE
 	blade_dulling = DULLING_BASH
@@ -777,6 +786,21 @@
 /obj/structure/fluff/statue/zizo/Initialize()
 	. = ..()
 	set_light(1, 1, 1, l_color = COLOR_PURPLE)
+
+/obj/structure/fluff/statue/baotha
+	name = "statue of Baotha"
+	desc = "You cannot keep your gaze off this statue... Petrified or Enchanted?"
+	icon = 'icons/roguetown/misc/128x96.dmi'
+	icon_state = "baotha"
+	max_integrity = 1000
+	deconstructible = FALSE
+	density = TRUE
+	blade_dulling = DULLING_BASH
+	bound_width = 128
+
+/obj/structure/fluff/statue/baotha/Initialize()
+	. = ..()
+	set_light(1, 1, 1, l_color = COLOR_PINK)
 
 /obj/structure/fluff/statue/musician/OnCrafted(dirin, mob/user)
 	. = ..()

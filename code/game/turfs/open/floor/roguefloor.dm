@@ -201,6 +201,11 @@
 	icon_state = "hellgrass"
 	neighborlay = "hellgrass"
 
+/turf/open/floor/grass/baotha
+	desc = "Grass tained by excess and drugs."
+	icon_state = "grass_baotha"
+	neighborlay = "grass_baotha"
+
 /*	..................   Snow   ................... */
 
 /turf/open/floor/snow
@@ -707,6 +712,11 @@
 /turf/open/floor/churchrough/green
 	icon_state = "church-green_rough"
 
+// Gold and Marble - I don't know Who though!!
+
+/turf/open/floor/church/yellow
+	icon_state = "church-yellow"
+
 //
 /turf/open/floor/herringbone
 	icon = 'icons/turf/constructed/stone.dmi'
@@ -881,6 +891,9 @@
 /turf/open/floor/tile/bath
 	icon_state = "bathtile"
 
+/turf/open/floor/tile/bath/baotha
+	icon_state = "bathtile_baotha"
+
 /turf/open/floor/tile/bath/pool
 	icon_state = "bathtile_pool"
 
@@ -981,6 +994,12 @@
 
 /turf/open/floor/carpet/green
 	icon_state = "carpet_inn"
+
+/turf/open/floor/carpet/purple
+	icon_state = "carpet_purple"
+
+/turf/open/floor/carpet/purple/edge
+	icon_state = "carpet_purple_edge"
 
 /turf/open/floor/naturalstone
 	icon = 'icons/turf/natural/stones.dmi'

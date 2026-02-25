@@ -224,6 +224,22 @@
 	dir = SOUTH
 	SET_BASE_PIXEL(0, 32)
 
+/obj/structure/fluff/walldeco/maidendrape/baotha
+	name = "baothan drape"
+	desc = "A drape of fabric, representing Baotha's Hedonists!"
+	icon_state = "baothabanner"
+	dir = SOUTH
+	SET_BASE_PIXEL(0, 32)
+
+/obj/structure/fluff/walldeco/maidendrape/graggar
+	name = "graggar drape"
+	desc = "A drape of fabric, representing Graggar's Cultists!"
+	icon_state = "graggarbanner"
+	dir = SOUTH
+	SET_BASE_PIXEL(0, 32)
+
+
+
 /obj/structure/fluff/walldeco/wallshield
 	name = ""
 	desc = ""
@@ -505,3 +521,6 @@
 
 /obj/structure/fluff/walldeco/vinez/red
 	icon_state = "vinez_red"
+
+/obj/structure/fluff/walldeco/vinez/pink
+	icon_state = "vinez_pink"

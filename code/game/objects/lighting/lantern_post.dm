@@ -19,6 +19,14 @@
 	desc = "The lamptern is permanently built into the structure of this one."
 	permanent = TRUE
 
+/obj/machinery/light/fueled/lanternpost/fixed/pink
+
+	desc = "The lamptern is permanently built into the structure of this one."
+	icon_state = "pinklantern"
+	bulb_colour = "#f780d9"
+	permanent = TRUE
+
+
 /obj/machinery/light/fueled/lanternpost/unfixed
 	desc = "A wooden post that can have a lamptern or a noose attached to it."
 	permanent = FALSE

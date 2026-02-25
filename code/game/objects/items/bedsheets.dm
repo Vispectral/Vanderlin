@@ -125,6 +125,9 @@ LINEN BINS
 	icon_state = "double_fabric_bedsheet"
 	item_state = "double_fabric_bedsheet"
 
+/obj/item/bedsheet/fabric_double/baotha
+	icon_state = "double_baotha_bedsheet"
+
 /obj/item/bedsheet/random
 	icon_state = "random_bedsheet"
 	name = "random bedsheet"

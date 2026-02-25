@@ -522,6 +522,15 @@
 	cleanliness_factor = 5
 	water_reagent = /datum/reagent/water
 
+/turf/open/water/bath/wine
+	name = "wine"
+	desc = "I don't submerge yourself in this..."
+	icon_state = MAP_SWITCH("bathtile_baotha", "bathtile_baothaV")
+	water_level = 2
+	slowdown = 15
+	cleanliness_factor = 0
+	water_reagent = /datum/reagent/consumable/ethanol/tiefling/delectable
+
 /turf/open/water/sewer
 	name = "sewage"
 	desc = "This dark water smells of dead rats."
@@ -707,6 +716,20 @@
 	water_reagent = /datum/reagent/blood
 
 /turf/open/water/blood/Initialize()
+	dir = pick(GLOB.cardinals)
+	. = ..()
+
+/turf/open/water/wine
+	name = "wine"
+	desc = "Pools of wine, dare you drink it?"
+	icon = 'icons/turf/natural/liquids.dmi'
+	icon_state = MAP_SWITCH("rock", "rockv")
+	water_level = 2
+	slowdown = 15
+	cleanliness_factor = -1
+	water_reagent = /datum/reagent/consumable/ethanol/tiefling/delectable
+
+/turf/open/water/wine/Initialize()
 	dir = pick(GLOB.cardinals)
 	. = ..()
 

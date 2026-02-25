@@ -41,6 +41,9 @@
 /obj/structure/stairs/fancy
 	icon_state = "fancy_stairs"
 
+/obj/structure/stairs/fancy/baotha
+	icon_state = "stairs_baotha"
+
 /obj/structure/stairs/fancy/c
 	icon_state = "fancy_stairs_c"
 	uses_lord_coloring = LORD_PRIMARY
